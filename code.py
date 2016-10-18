@@ -9,6 +9,7 @@ import pandas
 def init(context):
    
     context.s1 = "002230.XSHE"
+    #obsevation相当于缓冲数据,只要大于SMA(简单移动平均线)即可
     context.OBSERVATION = 40
     context.SMA = 27
 
